@@ -26,7 +26,13 @@ export default function TabLayout() {
       <Tabs.Screen name="legale" options={{
         title: "mention légale",
         tabBarIcon:({size})=>(
-          <MaterialCommunityIcons name="account-multiple" color='#c26879' size={size} />
+          <MaterialCommunityIcons name="newspaper-variant" color='#c26879' size={size} />
+        )
+      }}/>
+      <Tabs.Screen name="donate" options={{
+        title: "don",
+        tabBarIcon:({size})=>(
+          <MaterialCommunityIcons name="gift" color='#c26879' size={size} />
         )
       }}/>
     </Tabs>
