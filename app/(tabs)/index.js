@@ -12,7 +12,6 @@ export default function HomeScreen() {
       source="https://sauverdesvies.org/wp-content/uploads/2018/05/13_D16277.png"
       contentFit='contain'
       />
-      <Text>B2Isitech</Text>
     </View>
   );
 }
