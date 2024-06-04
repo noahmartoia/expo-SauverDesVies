@@ -38,7 +38,7 @@ export default function TabLayout() {
       <Tabs.Screen name="liste" options={{
         title: "Liste d'objectif",
         tabBarIcon:({size})=>(
-          <MaterialCommunityIcons name="gift" color='#c26879' size={size} />
+          <MaterialCommunityIcons name="format-list-bulleted" color='#c26879' size={size} />
         )
       }}/>
     </Tabs>
