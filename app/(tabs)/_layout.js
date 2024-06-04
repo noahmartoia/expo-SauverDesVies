@@ -18,19 +18,19 @@ export default function TabLayout() {
         )
       }}/>
       <Tabs.Screen name="about" options={{
-        title: "about",
+        title: "About",
         tabBarIcon:({size})=>(
           <MaterialCommunityIcons name="account-multiple" color='#c26879' size={size} />
         )
       }}/>
       <Tabs.Screen name="legale" options={{
-        title: "mention légale",
+        title: "Mention Légale",
         tabBarIcon:({size})=>(
           <MaterialCommunityIcons name="newspaper-variant" color='#c26879' size={size} />
         )
       }}/>
       <Tabs.Screen name="donate" options={{
-        title: "don",
+        title: "Don",
         tabBarIcon:({size})=>(
           <MaterialCommunityIcons name="gift" color='#c26879' size={size} />
         )
