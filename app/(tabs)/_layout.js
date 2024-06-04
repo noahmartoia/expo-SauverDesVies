@@ -35,6 +35,12 @@ export default function TabLayout() {
           <MaterialCommunityIcons name="gift" color='#c26879' size={size} />
         )
       }}/>
+      <Tabs.Screen name="liste" options={{
+        title: "Liste d'objectif",
+        tabBarIcon:({size})=>(
+          <MaterialCommunityIcons name="gift" color='#c26879' size={size} />
+        )
+      }}/>
     </Tabs>
   );
 }

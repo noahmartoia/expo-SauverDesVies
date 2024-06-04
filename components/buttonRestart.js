@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, StyleSheet, Pressable } from 'react-native';
 
-export default function Button(props) {
-    const { onPress, title = 'BTN QUI SERT A RIEN' } = props;
+export default function ButtonDonate(props) {
+    const { onPress, title = 'DONNER THUNE' } = props;
     return (
       <Pressable style={styles.button} onPress={onPress}>
         <Text style={styles.text}>{title}</Text>
